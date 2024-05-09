@@ -128,9 +128,9 @@ section.hero {
 .pictures img:nth-child(2){
     position: absolute;
     z-index: 2;
-    height: 120px;
+    height: 124px;
     width: 110px;
-    right: 522px;
+    right: 460px;
     }
 
 .pictures img:nth-child(3){
@@ -139,7 +139,7 @@ section.hero {
     background: white;
     position: absolute;
     top: 311px;
-    right: 240px;
+    right: 175px;
     z-index: 2;
 border-radius: 16px;}
 
@@ -147,8 +147,8 @@ border-radius: 16px;}
     width: 115px;
     position: absolute;
     z-index: 4;
-    height: 122px;
-    right: 280px;
+    height: 132px;
+    right: 215px;
     top: 530px;
 }
 .pictures img:nth-child(5){
@@ -156,8 +156,8 @@ border-radius: 16px;}
     height: 117px;
     position: absolute;
     z-index: 5;
-    top: 375px;
-    right: 608px;
+    top: 382px;
+    right: 524px;
     border-radius: 10px;
 }
 
@@ -269,9 +269,10 @@ img.beyon-bg {
 }
 
 .single-creative-item img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     margin-left: 71px;
+    margin-top:22px ;
 }
 
 .single-creative-item {
