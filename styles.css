@@ -781,4 +781,29 @@ select#shirts {
     text-align: center;
     margin-top: 46px;
 }
-    
+  
+
+/* appointment2 */
+
+.appointment2-wrapper {
+    height: 556px;
+    width: 560px;
+    background-color: #f5f5f5;
+    padding: 48px 31px 48px 31px;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.appointment2-btn a {
+    background-color: orange;
+    padding: 16px 40px 15px 40px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin-left: 159px;
+    display: inline-block;
+    margin-top: 33px;
+}
+
