@@ -535,6 +535,13 @@ section.last {
     font-size: 20px;
 }
 
+.single-last-item i.fa-solid.fa-phone, .single-last-item i.fa-solid.fa-location-dot,.single-last-item i.fa-solid.fa-envelope     {
+    position: static;
+    padding-left: 0;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
 /* Case-Studies */
 /* 
 section.case-studies {
@@ -622,6 +629,156 @@ section.case-studies {
     margin: 0;
 }
 
-.span05{
-    color: #14213D;
+.css-title{
+    color: darkblue;
 }
+
+/* APPOINTMENT */
+
+section.appointment {
+    display: flex;
+    width: 1440px;
+    height: 835px;
+    margin-top: 35px;
+    margin-bottom: 140px;
+    margin-left: 45px;
+}
+
+.appointment-left h1 {
+    font-size: 52px;
+    color: #14213d;
+}
+
+.appointment-left {
+    width: 585px;
+    height: 185px;
+}
+
+.appointment-left img {
+    width: 555px;
+    height: 454px;
+}
+
+.appointment-right {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.appointment-wrapper {
+    width: 618px;
+    height: 857px;
+    padding: 42px 32px 42px 32px;
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+.input1 {
+    display: flex;
+    position: relative;
+    /* margin-bottom: 30px; */
+}
+
+img.icons1 {
+    position: absolute;
+    left: 52px;
+    border: 1px;
+    height: 35px;
+    margin-top: 5px;
+}
+
+.fa-user, .fa-envelop, .fa-phone, .fa-earth-americas, .fa-user-group, .fa-shirt, .fa-user-plus {
+    font-size: 25px;
+    position: absolute;
+    padding-left: 20px;
+    top: 10px;
+}
+
+input#fname {
+    width: 100%;
+    height: 45px;
+    border: 1px;
+    border-radius: 12px;
+    padding-left: 54px;
+    font-size: 18px;
+}
+
+.input2 {
+    display: flex;
+    position: relative;
+}
+
+i.fa-regular.fa-envelope {
+    font-size: 25px;
+    position: absolute;
+    padding-left: 20px;
+    top: 10px;
+}
+
+
+.input3 {
+    display: flex;
+    position: relative;
+}
+
+.input4 {
+    display: flex;
+    position: relative;
+}
+
+.selection1 {
+    display: flex;
+    position: relative;
+}
+
+select#patients {
+    width: 100%;
+    height: 45px;
+    border: 1px;
+    border-radius: 12px;
+    font-size: 18px;
+    padding-left: 54px;
+}
+
+.selection2 {
+    display: flex;
+    position: relative;
+}
+
+select#shirts {
+    width: 100%;
+    height: 45px;
+    border: 1px;
+    border-radius: 12px;
+    padding-left: 54px;
+    font-size: 18px;
+}
+
+.selection3 {
+    display: flex;
+    position: relative;
+}
+
+
+.input1, .input2, .input3, .input4 {
+    margin-bottom: 25px;
+}
+
+.selection1, .selection2,.selection3 {
+    margin-bottom: 27px;
+}
+
+.appointment-btn a {
+    background-color: orange;
+    padding: 15px 40px 15px 40px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.appointment-btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 46px;
+}
+    
